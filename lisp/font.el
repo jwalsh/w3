@@ -79,6 +79,7 @@
     (mswindows . (mswindows-font-create-name mswindows-font-create-object))
     (win32    . (x-font-create-name x-font-create-object))
     (w32      . (x-font-create-name x-font-create-object))
+    (ns        . (x-font-create-name x-font-create-object)) ; MacOS
     (pm       . (x-font-create-name x-font-create-object)) ; Change? FIXME
     (tty      . (tty-font-create-plist tty-font-create-object)))
   "Alist mapping device types to functions.
